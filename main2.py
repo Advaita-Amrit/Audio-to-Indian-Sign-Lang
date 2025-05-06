@@ -43,7 +43,7 @@ def func():
                 r.adjust_for_ambient_noise(source) 
                 i=0
                 while True:
-                        print("I am Listening")
+                        print("Speak Now")
                         audio = r.listen(source)
                         # recognize speech using Sphinx
                         try:
